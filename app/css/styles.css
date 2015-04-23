@@ -1,0 +1,327 @@
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white; // In yourUse @body-bg 
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+
+
+
+
+/********************************************
+*	This is for the main page
+*	
+*/
+
+*{
+	font-size:12px;
+}
+
+big{
+	font-size:50px;
+}
+
+.omb_authTitle a{
+	font-size:24px;
+}
+
+body{
+	background-image:url('../images/texture_grain.png');	
+}
+.form-group {
+	margin-bottom: 5px;
+}
+
+
+.lower-navbar{
+	top: 50px;
+	min-height: 0px !important;
+	height: 30px;
+	background-color: #444;
+	z-index:1029 !important;
+}
+
+.lower-navbar .container{
+margin-top: -11px;
+}
+
+.row.margin-top-thirty{
+	margin-top:45px;
+}
+.search-nav{
+	margin-top:7px;
+	width:45%;
+}
+
+.user-list .caption{
+	margin-bottom:5px;
+	
+}
+
+.margin-top-five{
+	margin-top:5px;
+}
+
+.hide{
+	display:none;
+}
+
+.bg-maroon, .bg-white{
+	background-color:#fff;
+	color:#337ab7;
+	
+}
+
+label{
+	font-weight:normal;!important;
+}
+
+.bg-white .new-event label, .bg-white .edit-profile label, .bg-white .view-event, .bg-white .view-profile{
+	color:#333;
+	font-weight:normal
+}
+
+img.thumbnail{
+	margin-bottom:5px;!important;
+	padding-bottom:5px;!important;
+}
+
+.row.bottom-line, .bottom-line{
+	border-bottom:1px solid #eee;!important;
+	margin-bottom:5px;!important;
+	padding-bottom:5px;!important;
+	
+}
+.event-schedule ul{
+	color:#333;
+	font-size:12px;
+}
+
+
+.text-gray{
+	color:#c0c0c0;
+}
+
+.bg-photo{
+	background-color:#eee;
+	padding:2px;
+	border:1px solid #eee;
+}
+
+.sub-menues a.dropdown-toggle {
+padding: 5px;!important;
+margin-top: 10px;!important;
+}
+
+.text-white{
+	color:#fff;
+}
+
+.text-maroon{
+	color:maroon;
+}
+
+.bg-culture{
+	background-color:#006E25;
+	color:#fff;
+}
+
+.text-culture{
+	color:#006E25;
+}
+
+
+.bg-sports{
+	background-color:#005C5C;
+	color:#fff;
+}
+
+.text-sport{
+	color:#005C5C;
+}
+
+.bg-technology{
+	background-color:#5C002E;
+	color:#fff;
+}
+
+.text-technology{
+	color:#5C002E;
+}
+
+
+/******************* 	body icons css	**********************/
+.birthday{
+	cursor:pointer;
+}
+
+.birthday:hover{
+	background-color:#337ab7;
+	color:#333;
+	border-radius:6px;
+}
+
+/******************		footer css	**********************/
+
+footer.home-footer{
+	padding:20px;
+	background-color: #222;
+	border-color: #080808;
+	height:30%;
+	color:#9d9d9d;
+	bottom: 0;!important
+	border-width: 0 0 1px;
+	position: inherit;
+	right: 0;
+	left: 0;
+	margin-bottom:0px;!important;
+	
+}
+
+footer{
+	padding:20px;
+	background-color: #222;
+	border-color: #080808;
+	height:30%;
+	color:#9d9d9d;
+	bottom: 0;!important
+	border-width: 0 0 1px;
+	position: relative;
+	right: 0;
+	left: 0;
+	margin-bottom:0px;!important;
+	
+}
+
+footer span{
+	color:#9d9d9d;
+	cursor:pointer;
+}
+
+.adv{
+	height:30%;!important;
+	color:#222;
+}
+
+
+
+
+/****************************************************************************************
+*
+* Sub menus CSS Here 
+*
+*****************************************************************************************/
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
